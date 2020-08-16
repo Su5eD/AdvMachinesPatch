@@ -1,0 +1,16 @@
+[
+{
+  "modid": "advmachinespatch",
+  "name": "Advanced Machines Patcher",
+  "description": "Patches Advanced Machines to work with newer ic2 builds",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Su5eD"],
+  "credits": "Su5eD",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
