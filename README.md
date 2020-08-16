@@ -2,7 +2,7 @@
 Patches the Advanced Machines mod to work with newer IC2 builds (2.8.191+)
 
 Fixed errors:
-- `java.lang.NoSuchMethodError: java.lang.NoSuchMethodError: ic2.core.block.invslot.InvSlotProcessableGeneric.<init>(Lic2/core/block/TileEntityInventory;Ljava/lang/String;ILic2/api/recipe/IMachineRecipeManager;)V`
+- `java.lang.NoSuchMethodError: ic2.core.block.invslot.InvSlotProcessableGeneric.<init>(Lic2/core/block/TileEntityInventory;Ljava/lang/String;ILic2/api/recipe/IMachineRecipeManager;)V`
 - `java.lang.NoSuchMethodError: ic2.core.block.invslot.InvSlotOutput.<init>(Lic2/core/block/TileEntityInventory;Ljava/lang/String;I)V`
 - `java.lang.NoSuchMethodError: ic2.core.block.invslot.InvSlotUpgrade.<init>(Lic2/core/block/TileEntityInventory;Ljava/lang/String;I)V`
 
