@@ -9,20 +9,18 @@ import java.util.Collections;
 
 public class ADummyContainer extends DummyModContainer {
 
-    public ADummyContainer()
-    {
+    public ADummyContainer() {
         super(new ModMetadata());
         ModMetadata meta = super.getMetadata();
         meta.modId = "advmachinespatchcore";
         meta.name = "AdvMachinesPatchCoreMod";
-        meta.version = "1.0";
+        meta.version = "1.1";
         meta.authorList = Collections.singletonList("Su5eD");
         meta.description = "A coremod that fixes Advanced Machines crashing with newer ic2 builds";
     }
 
     @Override
-    public boolean registerBus(EventBus bus, LoadController controller)
-    {
+    public boolean registerBus(EventBus bus, LoadController controller) {
         bus.register(this);
         return true;
     }
